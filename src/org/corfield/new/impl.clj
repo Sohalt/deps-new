@@ -6,8 +6,7 @@
             [clojure.string :as str]
             [clojure.tools.deps.extensions.git :as git]
             [clojure.tools.build.api :as b]
-            [clojure.tools.gitlibs :as gl]
-            [org.corfield.new.impl :as impl])
+            [clojure.tools.gitlibs :as gl])
   (:import (java.nio.file Files)
            (java.nio.file.attribute FileAttribute)
            (java.text SimpleDateFormat)
